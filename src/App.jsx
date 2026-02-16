@@ -1,12 +1,14 @@
 import React from 'react'
 import Todo from './Todo'
-import { ToastContainer } from 'react-toastify';
+import { Bounce, Flip, Slide, ToastContainer } from 'react-toastify';
 
 function App() {
   return (
     <>
       <Todo />
       <ToastContainer
+          stacked
+          transition={Slide}
           position="top-right"
           autoClose={6000}
           hideProgressBar={false}
