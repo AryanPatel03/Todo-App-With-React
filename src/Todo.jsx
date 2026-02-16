@@ -97,7 +97,7 @@ function Todo() {
           <label className='lb-inp'>Task
             <div key={editId}>
               <input type="text" className='inp' value={task.text || task} onChange={(e) => setTask(e.target.value)}/>
-              <button className='btn' onClick={handleSubmit}>+</button>
+              <Button className='btn' onClick={handleSubmit}>+</Button>
             </div>
           </label>
         </div>

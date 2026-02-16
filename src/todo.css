@@ -26,6 +26,7 @@ body{
 .lb-inp{
     display: flex;
     flex-direction: column;
+    font-size: larger;
     color: beige;
     gap: 6px;
 }
@@ -54,6 +55,7 @@ body{
     border: none;
     border-radius: 5px;
     width: 75%;
+    height: 27px;
     font-size: 18px;
     margin-left: 9px;
     margin-top: 9px;
@@ -68,6 +70,9 @@ body{
     padding: 5px 16px;
     border: none;
     cursor: pointer;
+    height: 36px;
+    color: yellowgreen;
+    background-color: bisque;
     border-radius: 3px;
     font-size: 18px;
     margin-left: 9px;
