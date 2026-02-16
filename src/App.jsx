@@ -10,7 +10,7 @@ function App() {
           stacked
           transition={Slide}
           position="top-right"
-          autoClose={6000}
+          autoClose={900}
           hideProgressBar={false}
           newestOnTop={false}
           closeOnClick={false}
